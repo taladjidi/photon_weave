@@ -2,7 +2,6 @@ import random
 import unittest
 
 import jax.numpy as jnp
-import pytest
 
 from photon_weave.operation import Operation, PolarizationOperationType
 from photon_weave.state.composite_envelope import CompositeEnvelope

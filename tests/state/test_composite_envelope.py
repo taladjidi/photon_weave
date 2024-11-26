@@ -1,21 +1,18 @@
 import unittest
-from typing import List, Union
+from typing import List
 
 import jax
 import jax.numpy as jnp
 import numpy as np
-import pytest
 
 from photon_weave.photon_weave import Config
 from photon_weave.state.composite_envelope import (
     CompositeEnvelope,
-    CompositeEnvelopeContainer,
 )
 from photon_weave.state.custom_state import CustomState
 from photon_weave.state.envelope import Envelope
 from photon_weave.state.expansion_levels import ExpansionLevel
-from photon_weave.state.fock import Fock
-from photon_weave.state.polarization import Polarization, PolarizationLabel
+from photon_weave.state.polarization import PolarizationLabel
 
 
 class TestCompositeEnvelopeInitialization(unittest.TestCase):

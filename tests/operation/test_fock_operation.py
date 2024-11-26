@@ -1,7 +1,6 @@
 import unittest
 
 import jax.numpy as jnp
-import pytest
 
 from photon_weave._math.ops import (
     annihilation_operator,

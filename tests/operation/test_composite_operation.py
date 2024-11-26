@@ -1,11 +1,10 @@
-import pytest
 import unittest
 import jax.numpy as jnp
 
 from photon_weave.operation import Operation, CompositeOperationType
 from photon_weave.state.composite_envelope import CompositeEnvelope
 from photon_weave.state.envelope import Envelope
-from photon_weave.state.polarization import Polarization, PolarizationLabel
+from photon_weave.state.polarization import PolarizationLabel
 from photon_weave.state.fock import Fock
 from photon_weave.photon_weave import Config
 from photon_weave._math.ops import number_operator

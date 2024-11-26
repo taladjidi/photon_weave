@@ -1,6 +1,4 @@
 import unittest
-import pytest
-from typing import Union
 import numpy as np
 import jax.numpy as jnp
 
@@ -8,7 +6,6 @@ from photon_weave.photon_weave import Config
 from photon_weave.state.expansion_levels import ExpansionLevel
 from photon_weave.state.envelope import (
     Envelope,
-    TemporalProfile,
     TemporalProfileInstance,
 )
 from photon_weave.state.fock import Fock
